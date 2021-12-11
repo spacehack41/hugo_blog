@@ -1,0 +1,30 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "blog"
+theme = "anubis"
+pageinate = 30
+
+[author] 
+name = "tester"
+
+[params]
+author = "tester"
+paginationSinglesPost = true
+readMore = false 
+style = "dark"
+
+[[params.social]]
+id = "12344"
+
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "Aboud"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+weight = 1
